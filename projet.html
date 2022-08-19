@@ -20,7 +20,7 @@
     <header class="sticky-top mb-5">
         <nav class="nav container-fluid bg-light shadow">
             <div class="container d-flex justify-content-between align-items-center py-2">
-                <a href="#" class="nav-link"><img src="./images/" class="w-auto" alt="img"></a>
+                <a href="projet.html"><img src="./images/A.png" class="img" alt="image"></a>
                 <ul class="nav nav-pills">
                     <li class="nav-item"><a href="#accueil" class="nav-link active">Accueil</a></li>
                     <li class="nav-item"><a href="#apropos" class="nav-link">A Propos</a></li>
@@ -37,11 +37,11 @@
 
     <!-- LA BANNIERE -->
 
-    <section id="accueil">
+    <section id="accueil" class="py-3">
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="text-center my-5">
-                    <h1>Bienvenue chez Baol Business Compagnie</h1>
+                    <h1 class="title">Bienvenue chez Baol Business Compagnie</h1>
                     <p>Le Meilleur dans l'Histoire des vendeurs de materiel electroniques</p>
                     <a href="catalogue.html"><button type="button" class="btn btn-outline-primary my-2">Visitez Notre Catalogue</button></a>
                 </div>
@@ -55,32 +55,39 @@
 
     <!-- A PROPOS -->
 
-    <section>
-        <div class="container">
+    <section id="apropos" class="container-fluid bg-light py-3 my-5 shadow">
+        <div class="container my-5">
             <div class="row">
+                <div class="col-sm-6">
+                    <h3 class="my-5">A Propos de Nous</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo eligendi architecto eius illum ut aspernatur libero ullam nihil ea. Inventore beatae, ipsam, magnam illum tempora porro sint deserunt repellendus illo possimus excepturi maxime vitae ut, hic error quae animi delectus natus at sit laborum dolores unde? Iste deserunt animi tempora.</p>
+                </div>
+                <div class="col-sm-6">
+                    <img src="./images/A2.jpg" class="img-fluid rounded" alt="image">
+                </div>
 
             </div>
         </div>
     </section>
     <!-- SERVICES -->
 
-    <section id="service" class="">
+    <section id="service" class="container-fluid">
         <div class="container">
-            <div class="row my-5">
+            <div class="row my-5 py-3">
                 <h3 class="text-center my-5">Nos Services</h3>
-               <div class="col-md-4 col-sm-6">
+               <div class="col-md-4 col-sm-6 my-2">
                     <h3>Vente En Ligne</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus magnam quisquam totam dignissimos nisi deleniti.</p>
                     <button type="button" class="btn btn-outline-primary">Lire Plus</button>
                 </div>
 
-               <div class="col-md-4 col-sm-6">
+               <div class="col-md-4 col-sm-6 my-2">
                     <h3>Reparation</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus magnam quisquam totam dignissimos nisi deleniti.</p>
                     <button type="button" class="btn btn-outline-primary">Lire Plus</button>
                 </div>
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 my-2">
                     <h3>Livraison</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus magnam quisquam totam dignissimos nisi deleniti.</p>
                     <button type="button" class="btn btn-outline-primary">Lire Plus</button>
@@ -128,8 +135,9 @@
 
     <!-- PIED DE PAGE-->
     <footer>
-        <p class=" container text-center text-primary justify-content-around">Tout droit reservee bbc &copy; 2022
-        </p>
+        <div class="container-fluid">
+            <p class="text-center fs-6">Tout droit reservee &copy; 2022 BAOL BUSINESS COMPAGNIE</p>
+        </div>
     </footer>
 </body>
 </html>

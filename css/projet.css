@@ -4,9 +4,25 @@ body{
 }
 .nav-link{
     margin-right: 20px;
+    color: black;
+    font-size: 17px;
 }
 .nav-link:hover{
-    border-bottom: 1px solid rgb(14, 12, 12);
-    border-radius: none;
+  color: rgb(39, 39, 238);
+ 
 }
-
+#accueil{
+  color: black;
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+  background-attachment: fixed;
+}
+.img{
+  width: 150px;
+}
+.title{
+  font-size: 35px;
+  font-weight: bolder;
+}
